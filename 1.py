@@ -12,7 +12,7 @@ data = np.linspace(1,100,1000)**2
 
 df = pd.DataFrame()
 df['data']=data
-df['name']=[f'dot{i}' for i in range(100)]
+df['name']=[f'dot{i}' for i in range(data.shape[0])]
 
 st.dataframe(df)
 
