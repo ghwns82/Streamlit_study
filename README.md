@@ -11,8 +11,8 @@
 
 
 
-파이썬에서 'hello world'를 출력하려면 print()함수를 사용하면 돼. 예를 들어:
+파이썬에서 `'hello world'`를 출력하려면 `print()`함수를 사용하면 돼. 예를 들어:
 ```python
 print('hello world')
 ```
-이렇게 입력하면 콘솔에 hello world가 출력돼!
+이렇게 입력하면 콘솔에 `hello world`가 출력돼!
