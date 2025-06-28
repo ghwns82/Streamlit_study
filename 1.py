@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 
 st.title('우리의 첫 앱이에요')
 
@@ -15,4 +16,6 @@ df['data']=data
 df['name']=[f'dot{i}' for i in range(data.shape[0])]
 
 st.dataframe(df)
-
+fig, ax = plt.plot()
+ax.plot(data)
+st.pyplot(fig)
