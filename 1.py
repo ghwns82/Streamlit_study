@@ -16,6 +16,6 @@ df['data']=data
 df['name']=[f'dot{i}' for i in range(data.shape[0])]
 
 st.dataframe(df)
-fig, ax = plt.plot()
+fig, ax = plt.subplots()
 ax.plot(data)
-st.pyplot(fig)
+st.pyplot
